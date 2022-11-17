@@ -1,4 +1,4 @@
-const Search = (val, onSearch,...props)=>{
+const Search = ({val, onSearch,...props})=>{
     return(
         <input
             value={val}
